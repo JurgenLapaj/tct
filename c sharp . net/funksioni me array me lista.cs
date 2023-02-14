@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
@@ -15,13 +16,12 @@ namespace c_sharp_._net
 
             int max = 0;
             
-            for(int i = 0 ; i < array.Length; i++)
-            {
-                if (array[i] > max) max = array[i];
+            foreach(int iteam in array) {
+            
+                if (iteam > max) max = iteam;
+            
             }
-
-
-
+         
 
             return max;
         }
@@ -30,9 +30,9 @@ namespace c_sharp_._net
         {
             int sum = 0;
 
-            for (int i = 0; i < array.Length; i++)
+            foreach (int iteam in array)
             {
-                sum = sum + array[i];
+                if (iteam + sum ) sum = iteam;
             }
 
             return sum;
@@ -42,13 +42,12 @@ namespace c_sharp_._net
         {
             int sum = 0;
 
-            for (int i = 0; i < array.Length; i++)
+            foreach (int iteam in array)
             {
-                if (array[i] % 2 == 0)
+                if (iteam % 2 == 0)
                 {
-                    sum = sum + array[i];
-                }
 
+                }
             }
 
             return sum;
