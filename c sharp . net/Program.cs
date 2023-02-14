@@ -3,13 +3,3 @@ Console.WriteLine("Hello, World!");
 
 
 
-int shuma (int x, int y)
-{
-    return x * y;
-}
-
-
-
-
-
-// test
