@@ -29,14 +29,14 @@ for (int i = 0;i < n; i++)
 
 int shuma = instanca.GjejShumenEArray(array);
 int meIMadhi = instanca.GjejMeTeMadhin(array);
-
+int shumaCift = instanca.GjejShumenENumrvaCift(array);  
 
 
 
 
 Console.WriteLine("Shuma: " + shuma);
 Console.WriteLine("Me i madhi:" + meIMadhi);
-
+Console.WriteLine("Shuma Cift: " + shumaCift);
 
 
 
