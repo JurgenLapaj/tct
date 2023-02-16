@@ -36,7 +36,26 @@ int shumaCift = instanca.GjejShumenENumrvaCift(array);
 
 Console.WriteLine("Shuma: " + shuma);
 Console.WriteLine("Me i madhi:" + meIMadhi);
-Console.WriteLine("Shuma Cift: " + qshumaCift);
+Console.WriteLine("Shuma Cift: " + shumaCift);
+
+
+
+
+
+List<int> listaMeInterger = new List<int>();
+
+
+
+
+
+
+
+
+
+
+
+IEnumerable<int> ints= new List<int>();
+
 
 
 
