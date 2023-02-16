@@ -36,7 +36,7 @@ int shumaCift = instanca.GjejShumenENumrvaCift(array);
 
 Console.WriteLine("Shuma: " + shuma);
 Console.WriteLine("Me i madhi:" + meIMadhi);
-Console.WriteLine("Shuma Cift: " + shumaCift);
+Console.WriteLine("Shuma Cift: " + qshumaCift);
 
 
 
