@@ -28,8 +28,25 @@ namespace c_sharp_._net
         public int GjejShumenENumrvaCiftNeListe(List<int> lista)
         {
 
-            return lista.where(a=> a % 2 == 0).Sum();
+            return lista.Where(a => a % 2 == 0).Sum();
 
         }
+
+
+        public List<string> KonvertoUppercase(List<string> lista)
+        {
+            return lista.Select(a => a.ToUpper()).ToList();
+        }
+
+
     }
+
+
+
+
+
 }
+
+
+
+
