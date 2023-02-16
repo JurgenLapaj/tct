@@ -32,7 +32,11 @@ namespace c_sharp_._net
 
             foreach (int iteam in array)
             {
-                if (iteam + sum ) sum = iteam;
+                if (!(iteam + sum))
+                {
+                    continue;
+                }
+                sum = iteam;
             }
 
             return sum;
