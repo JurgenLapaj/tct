@@ -38,11 +38,26 @@ namespace c_sharp_._net
             return lista.Select(a => a.ToUpper()).ToList();
         }
 
+        public int KtheSHumenENumraveNegativ(List<int> lista) {
+        
+        
+        return lista.Where(a => a < 0).ToList().Sum();
+        
+        }
+
+        public List<int> KtheNumratPozitivCift(List<int> lista)
+        {
+            int a = 10;
+
+            if (a > 0 && a % 2 == 0)
+            {
+            }
+
+            return lista.Where(a => a > 0 && a % 2 == 0).ToList();
+        }
+
 
     }
-
-
-
 
 
 }
