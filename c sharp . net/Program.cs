@@ -29,7 +29,7 @@ for (int i = 0;i < n; i++)
 
 int shuma = instanca.GjejShumenEArray(array);
 int meIMadhi = instanca.GjejMeTeMadhin(array);
-int shumaCift = instanca.GjejShumenENumrvaCift(array);  
+List<int> shumaCift = instanca.GjejShumenENumrvaCift(array);  
 
 
 
@@ -55,6 +55,26 @@ List<int> listaMeInterger = new List<int>();
 
 
 IEnumerable<int> ints= new List<int>();
+
+
+
+foreach(int i in shumaCift)
+{
+    Console.WriteLine();
+}
+
+
+
+Person p = new Person();
+
+p.Age = 10;
+p.Name = "Jurgen";
+p.Surname = "Lapaj";
+p.Address = "Rruga e kavajes";
+p.City = "Tirana";
+p.phones = "0683314888";
+
+
 
 
 
