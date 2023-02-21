@@ -25,6 +25,11 @@ namespace c_sharp_._net
         }
 
 
+        /// <summary>
+        /// Pret nje list me integer
+        /// </summary>
+        /// <param name="lista"></param>
+        /// <returns>kthen numrin me te madh cift</returns>
         public int GjejShumenENumrvaCiftNeListe(List<int> lista)
         {
 
